@@ -2,11 +2,11 @@ import React from "react";
 
 function NewItem() {
   return (
-    <div>
-      <p>New item</p>
-      <input type="text" />
-      <button>Add</button>
-    </div>
+    <form className="new-item-form">
+      <label htmlFor="item">New Item</label>
+      <input type="text" id="item" />
+      <button className="btn">Add</button>
+    </form>
   );
 }
 
